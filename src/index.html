@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=1,minimum-scale=1,maximum-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta name="theme-color"
+          content="#fff"
+          media="(prefers-color-scheme: light)">
+    <meta name="theme-color"
+          content="#303030"
+          media="(prefers-color-scheme: dark)">
+    <!-- Primary Meta Tags -->
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="title" content="<%= htmlWebpackPlugin.options.title %>">
+    <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<%= htmlWebpackPlugin.options.url %>">
+    <meta property="og:title" content="<%= htmlWebpackPlugin.options.title %>">
+    <meta property="og:description" content="<%= htmlWebpackPlugin.options.description %>">
+    <meta property="og:image" content="<%= htmlWebpackPlugin.options.img %>">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="<%= htmlWebpackPlugin.options.url %>">
+    <meta property="twitter:title" content="<%= htmlWebpackPlugin.options.title %>">
+    <meta property="twitter:description" content="<%= htmlWebpackPlugin.options.description %>">
+    <meta property="twitter:image" content="<%= htmlWebpackPlugin.options.img %>">
+  </head>
+  <body>
+    <noscript>
+      <strong>Lo sentimos, pero esta app no funciona correctamente sin JavaScript habilitado. Por favor, activelo para continuar.</strong>
+    </noscript>
+    <div id="app">
+    </div>
+  </body>
+</html>

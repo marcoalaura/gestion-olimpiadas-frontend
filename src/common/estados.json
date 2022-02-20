@@ -1,0 +1,124 @@
+[
+  {
+    "nombre": "Activa",
+    "descripcion": "Inicio.",
+    "descripcionCorta": "Inicio.",
+    "bd": "ACTIVO"
+  },
+  {
+    "nombre": "Configuración de grados",
+    "descripcion": "Configurar Etapa-Área-Grado.",
+    "descripcionCorta": "Configurar Etapa-Área-Grado.",
+    "bd": "CONFIGURACION_GRADOS"
+  },
+  {
+    "nombre": "Configuración de Competencia",
+    "descripcion": "Inscribir estudiantes, gestión de preguntas y configuración de calendarios.",
+    "descripcionCorta": "Inscribir estudiantes, gestión de preguntas y configuración de calendarios.",
+    "bd": "CONFIGURACION_COMPETENCIA"
+  },
+  {
+    "nombre": "Sorteo de Preguntas",
+    "descripcion": "Sorteo de preguntas (pruebas online y offline).",
+    "descripcionCorta": "Sorteo de preguntas (pruebas online y offline).",
+    "accion": {
+      "nombre": "Sortear Preguntas",
+      "descripcionCorta": "Se realizará el sorteo de preguntas"
+    },
+    "bd": "SORTEO_PREGUNTAS"
+  },
+  {
+    "nombre": "Descarga de Empaquetados",
+    "descripcion": "Descarga de empaquedatos para pruebas offline (según cronograma).",
+    "descripcionCorta": "Descarga de empaquedatos para pruebas offline (según cronograma).",
+    "bd": "DESCARGA_EMPAQUETADOS"
+  },
+  {
+    "nombre": "Examen según cronograma",
+    "descripcion": "Desarrollo de la prueba online según cronograma y desarrollo de la prueba offline según cronograma.",
+    "descripcionCorta": "Desarrollo de la prueba online según cronograma y desarrollo de la prueba offline según cronograma.",
+    "bd": "EXAMEN_SEGUN_CRONOGRAMA"
+  },
+  {
+    "nombre": "Habilitación de rezagados",
+    "descripcion": "Habilitación de rezagados para dar la prueba y habilitación de inscritos que dieron la prueba en caso de justificación.",
+    "descripcionCorta": "Habilitación de rezagados para dar la prueba y habilitación de inscritos que dieron la prueba en caso de justificación.",
+    "bd": "HABILITACION_REZAGADOS"
+  },
+  {
+    "nombre": "Sorteo de preguntas (rezagados)",
+    "descripcion": "Generación de pruebas para los que darán la prueba por segunda vez.",
+    "descripcionCorta": "Generación de pruebas para los que darán la prueba por segunda vez.",
+    "accion": {
+      "nombre": "Sortear preguntas rezagadas",
+      "descripcionCorta": "Se realizará el sorteo de preguntas rezagadas"
+    },
+    "bd": "SORTEO_PREGUNTAS_REZAGADOS"
+  },
+  {
+    "nombre": "Desarollo de pruebas (rezagados)",
+    "descripcion": "Desarrollo de pruebas online (rezagados) y desarrollo de pruebas offline (rezagados).",
+    "descripcionCorta": "Desarrollo de pruebas online (rezagados) y desarrollo de pruebas offline (rezagados).",
+    "bd": "DESARROLLO_PRUEBAS_REZAGADOS"
+  },
+  {
+    "nombre": "Cierre de pruebas (rezagados)",
+    "descripcion": "Cargado de pruebas offline (según cronograma).",
+    "descripcionCorta": "Cargado de pruebas offline (según cronograma).",
+    "bd": "CIERRE_PRUEBA_REZAGADOS"
+  },
+  {
+    "nombre": "Publicación de respuestas",
+    "descripcion": "Calificación de prueba y publicación de respuestas.",
+    "descripcionCorta": "Calificación de prueba y publicación de respuestas.",
+    "accion": {
+      "nombre": "Calificar examenes",
+      "descripcionCorta": "Se calificarán los examenes"
+    },
+    "bd": "PUBLICACION_RESPUESTAS"
+  },
+  {
+    "nombre": "Impugnación de preguntas y respuestas",
+    "descripcion": "Impugnación de preguntas y respuestas.",
+    "descripcionCorta": "Impugnación de preguntas y respuestas.",
+    "bd": "IMPUGNACION_PREGUNTAS_RESPUESTAS"
+  },
+  {
+    "nombre": "Obtención del Medallero",
+    "descripcion": "Generación del medallero.",
+    "descripcionCorta": "Generación del medallero.",
+    "accion": {
+      "nombre": "Generar Medallero",
+      "descripcionCorta": "Se generarán los medalleros"
+    },
+    "bd": "OBTENCION_MEDALLERO"
+  },
+  {
+    "nombre": "Desempate",
+    "descripcion": "Desempate.",
+    "descripcionCorta": "Desempate.",
+    "bd": "DESEMPATE"
+  },
+  {
+    "nombre": "Generar clasificados",
+    "descripcion": "Generación de Clasificados y generación de actas (en caso de que exista comité de desempate).",
+    "descripcionCorta": "Generación de Clasificados y generación de actas (en caso de que exista comité de desempate).",
+    "accion": {
+      "nombre": "Clasificar Etapa",
+      "descripcionCorta": "Se realizará la clasificación"
+    },
+    "bd": "GENERAR_CLASIFICADOS"
+  },
+  {
+    "nombre": "Publicación de resultados",
+    "descripcion": "Inscripción de estudiantes a la siguiente etapa.",
+    "descripcionCorta": "Inscripción de estudiantes a la siguiente etapa.",
+    "bd": "PUBLICACION_RESULTADOS"
+  },
+  {
+    "nombre": "Cerrado",
+    "descripcion": "Cerrado",
+    "descripcionCorta": "Cerrado",
+    "bd": "CERRADO"
+  }
+]

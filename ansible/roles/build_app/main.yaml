@@ -1,0 +1,4 @@
+--- # Construir una app de iop en Debian 10 - Buster
+
+- name: Generar build de la aplicación
+  shell: cd {{ projectPath }} && npm run build && echo 'buildeando la app'
